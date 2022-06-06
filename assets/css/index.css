@@ -1,5 +1,13 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
 .col-sm-3{
-     background-color: aqua; 
+    
+     display: block;
+     /* position: fixed;  */
+     
+
 }
 .myImage img{
     height: 16rem;
@@ -21,6 +29,76 @@
 .side-bar-list li a:hover{
     background: rgb(231, 15, 80);
 }
+.col-sm-9{
+ /* background-color: darkgrey; */
+}
 .content-box{
-    margin-top: 12.0em;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: space-around;
+}
+.image-class{
+    height: 100px;
+    /* background-position: center; */
+    width: 100%;
+}
+.contentBox1{
+    margin-left: 10px;
+    margin-top: 3.0em;
+    width: 100%;
+    /* background-color: bisque; */
+   text-align: center;
+   text-decoration: double;
+}
+.aboutMe{
+    margin-top: 20px;
+}
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
+.aboutEducation{
+    padding-top: 2.0em;
+}
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+.education .box-container .box{
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+}
+.education .box-container .box h3{
+    font-size: 2rem;
+    color: magenta;
+    padding-top: 1.5rem;
+}
+.education .box-container .box h4{
+    font-size: 1.5rem;
+    /* color: #eee; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.education .box-container .box p{
+    font-size: 1.4rem;
+    /* color: #eee; */
+    padding-top: 1rem 0;
+    text-transform: initial;
 }
