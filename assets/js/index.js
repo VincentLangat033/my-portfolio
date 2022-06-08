@@ -8,4 +8,7 @@ function sendEmail() {
     
     window.location.href = link;
   }
-  
+  function myButton(){
+    // console.log() ;
+    alert ("Vincent Says Thank You for checking!")
+  }
